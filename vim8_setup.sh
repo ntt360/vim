@@ -1,6 +1,6 @@
 #!/bin/bash
 
-wget https://raw.githubusercontent.com/zmwater/vim/master/vimrc -O ~/.vimrc
+wget https://raw.githubusercontent.com/ntt360/vim/master/vimrc -O ~/.vimrc
 
 git clone https://github.com/preservim/nerdtree.git ~/.vim/pack/plugins/start/nerdtree || cd ~/.vim/pack/plugins/start/nerdtree && git pull
 git clone https://github.com/preservim/tagbar.git ~/.vim/pack/plugins/start/tagbar || cd ~/.vim/pack/plugins/start/tagbar && git pull
